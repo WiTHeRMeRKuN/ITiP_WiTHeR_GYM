@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "itip-project"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "itip_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.4"
+scraping = "^0.0.3"
+language = "^0.6"
+django-reviews = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
